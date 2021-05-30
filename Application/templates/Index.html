@@ -14,8 +14,8 @@
 	<div class="wrapper" id="wrapper">
 		<header>
 			<div class="jumbotron jumbotron-fluid" id="banner">
-				<div class="parallax text-center" style="background-image:url(https://s-media-cache-ak0.pinimg.com/originals/d1/f2/d2/d1f2d267f17debc0a11170f61f236ef4.jpg);">
-					<div class="parallax-pattern-overlay">
+				<div class="parallax text-center" style="background-image:url({{ url_for('static', filename='img/landing-bg.jpg') }});">
+					<div class="parallax-pattern-overlay" style="background-image:url({{ url_for('static', filename='img/bg-transparent-pattern.png') }})">
 						<div class="container text-center" style="height:580px;padding-top:170px;">
 							<a href="#"><img id="site-title" src="https://image.flaticon.com/icons/png/128/374/374973.png" alt="logo"/></a>
 							<h2 class="display-2">Boostrap 4 Alpha</h2>
